@@ -16,7 +16,7 @@
 //////////////////// USER SETTINGS ////////////////////
 const HA_URL     = "http://homeassistant.local:8123/"; // <-- Prefer IP over .local
 const RELAY_IDS  = [0];                         // e.g., [0] or [0,1]
-const CHECK_MS   = 60000;                       // periodic check interval
+const CHECK_MS   = 300_000;                     // periodic check interval
 const TIMEOUT_MS = 4000;                        // HTTP timeout (ms)
 const UP_MODE    = "detached";                  // when HA is reachable
 const DOWN_MODE  = "flip";                      // when HA is not reachable
