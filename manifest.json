@@ -2,6 +2,11 @@
   {
     "fname": "ha_failover.js",
     "title": "Failover to edge mode when HA is not reachable",
-    "description": "Periodically checks connection to HA and switches Shelly outpu between detached and edge mode - useful in case of Wifi/HA problems"
+    "description": "Periodically checks connection to HA and switches Shelly outpu between detached and edge mode - useful in case of Wifi/HA problems."
+  },
+  {
+    "fname": "zigbee_light_toggle.js",
+    "title": "Zigbee binding alternative/workaround",
+    "description": "Sends on/off/toggle to other Zigbee device when input changes state."
   }
 ]  
