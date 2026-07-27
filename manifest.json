@@ -7,6 +7,11 @@
   {
     "fname": "zigbee_light_toggle.js",
     "title": "Zigbee binding alternative/workaround",
-    "description": "Sends on/off/toggle to other Zigbee device when input changes state."
+    "description": "Sends toggle to other Zigbee device when input changes state."
+  },
+  {
+    "fname": "zigbee_light_onoff.js",
+    "title": "Zigbee binding alternative/workaround",
+    "description": "Sends on/off to other Zigbee device based on input state."
   }
 ]  
